@@ -26,7 +26,7 @@ export default function Player() {
   }, []);
 
   return (
-    <div className="w-screen h-screen overflow-hidden m-0 p-[200px] bg-black flex justify-center items-center flex-col">
+    <div className="w-screen h-screen overflow-hidden m-0 p-[20px] lg:p-[200px] bg-black flex justify-center items-center flex-col">
       
       {/* Back Button */}
       <Link
