@@ -1,0 +1,55 @@
+.custom-progress::part(track) {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 4px;
+    border-radius: 2px;
+    transition: height 0.2s ease;
+}
+
+.custom-progress:hover::part(track) {
+    height: 6px;
+    border-radius: 3px;
+}
+
+.custom-progress::part(progress) {
+    background: #3b82f6;
+}
+
+.custom-progress::part(thumb) {
+    transform: scale(0.6);
+    transition: transform 0.2s ease;
+}
+
+.custom-progress:hover::part(thumb) {
+    transform: scale(1.4);
+}
+
+.media-button-wide {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.media-button-wide:hover {
+    background-color: rgba(200, 200, 200, 0.2);   /* Light gray transparent */
+}
+
+.media-button {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.media-button:hover {
+    background-color: rgba(200, 200, 200, 0.2);   /* Light gray transparent */
+}
